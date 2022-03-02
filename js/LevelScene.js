@@ -88,6 +88,9 @@ export default class LevelScene extends Phaser.Scene {
 
     update() {}
 
+    /**
+     * Clicked method of arrow
+     */
     arrowClicked() {
         alert("arrow clicked");
     }
